@@ -1,0 +1,16 @@
+
+
+#ignore gitignore
+
+gitignore
+
+#ignore all jpg
+
+*.jpg
+
+#ignore all png
+
+*.png
+
+
+
