@@ -1,0 +1,12 @@
+﻿Console.WriteLine("Введите положительное целое число");
+int num0 = Convert.ToInt32(Console.ReadLine());
+int num2, num3;
+num2 = num0 - num0 / 10 * 10;
+num3 = num0 - num0 / 100 * 100;
+if (num0 <0)Console.WriteLine( "введено отрицательное число");
+else if (num2==0) Console.WriteLine($"{num0} програмистов");
+else if (num2 == 1) Console.WriteLine($"{num0} програмист");
+else if ((num0 > 10) && (num0 < 20)) Console.WriteLine($"{num0} програмистов");
+else if ((num2 > 1) && (num2 < 5)) Console.WriteLine($"{num0} програмиста");
+else if ((num3 > 10) && (num3 < 20)) Console.WriteLine($"{num0} програмистов");
+else if ((num2 > 4) && (num2 < 21)) Console.WriteLine($"{num0} програмистов");
